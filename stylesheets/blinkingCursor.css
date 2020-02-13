@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+h1:after {
+  content: '|';
+  opacity: 0;
+  display: inline-block;
+  animation: blink 1s linear infinite alternate;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
