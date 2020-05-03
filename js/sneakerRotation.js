@@ -7,8 +7,9 @@ function swapImage(){
         index = 0
     }
     var sneakerImage = document.getElementsByClassName(CLASS);
-    console.log('sneakrrotation/' + index + '.png')
-    sneakerImage.src = 'sneakrrotation/' + index + '.png'
+    console.log(sneakerImage.src)
+    document.getElementsByClassName(CLASS).src = "sneakrrotation/" + index + ".png"
+    //sneakerImage.src = "sneakrrotation/" + index + ".png"
     index += 1
 }
 
