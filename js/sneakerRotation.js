@@ -6,7 +6,7 @@ function swapImage(){
     if(index > ROT_LENGTH){
         index = 0
     }
-    var path = "sneakrrotation/" + index + ".png"
+    var path = "/sneakrrotation/" + index + ".png"
     $(".sneaker").attr("src", path);
     index += 1
 }
