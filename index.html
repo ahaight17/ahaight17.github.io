@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Rain animation credits to Caleb Miller at cmiller.tech from https://codepen.io/MillerTime -->
 <html>
     <head>
         <title>Alex Haight</title>
@@ -7,13 +8,16 @@
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <script type="text/javascript" src="js/sneakerRotation.js"></script>
         <script type="text/javascript" src="js/jquery-3.5.0.js"></script>
+        <script type="text/javascript" src="js/rain.js"></script>
         <link rel="stylesheet" href="https://use.typekit.net/wux7ecp.css">
         <!-- <link rel="stylesheet" type="text/css" href="stylesheets/blinkingCursor.css"> -->
         <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
     </head>
     <body onload="setImageInterval()">
-        <!-- <h1>alex.haight@gmail.com:~$</h1> -->
         <h1 class="pageHeader">Alex's Sneaker Rotation</h1>
         <img src="/sneakerrotation/0.png" class="sneaker">
+        <div>
+            <canvas id="canvas">Canvas is not supported in your browser</canvas>
+        </div>
     </body>
 </html>
